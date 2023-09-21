@@ -276,7 +276,7 @@ void modifyPerson(Addressbooks* abs)
 	system("cls");
 }
 
-//6、情空所有联系人
+//6、请空所有联系人
 void cleanPerson(Addressbooks* abs)
 {
 	abs->m_Size = 0;//将当期记录联系人数量置为0，做逻辑清空操作
