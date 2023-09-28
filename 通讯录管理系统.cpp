@@ -24,7 +24,6 @@ struct Addressbooks
 	//通讯录中保存的联系人数组
 	struct Person personArray[MAX];
 
-
 	//通讯录中当前记录联系人个数
 	int m_Size;
 };
@@ -327,7 +326,6 @@ int main()
 
 		case 3://3、删除联系人
 		
-
 		/*	cout << "请输入删除联系人姓名" << endl;
 			string name;
 			cin >> name;
